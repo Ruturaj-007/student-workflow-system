@@ -2,9 +2,13 @@
   {
     "id": "student-workflow",
     "config": {
+      "steps\\show-study-result.step.ts": {
+        "x": 585,
+        "y": 34
+      },
       "steps\\process-study-material.step.ts": {
-        "x": 344,
-        "y": 41
+        "x": 232,
+        "y": 4
       },
       "steps\\generate-study-material.step.ts": {
         "x": -340,
