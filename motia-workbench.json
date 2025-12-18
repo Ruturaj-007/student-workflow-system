@@ -1,0 +1,15 @@
+[
+  {
+    "id": "student-workflow",
+    "config": {
+      "steps\\process-study-material.step.ts": {
+        "x": 344,
+        "y": 41
+      },
+      "steps\\generate-study-material.step.ts": {
+        "x": -340,
+        "y": 18
+      }
+    }
+  }
+]
