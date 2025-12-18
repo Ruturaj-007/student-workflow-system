@@ -12,7 +12,8 @@ declare module 'motia' {
   }
 
   interface Handlers {
-    'ProcessStudyMaterial': EventHandler<never, never>
+    'ShowStudyResult': EventHandler<never, never>
+    'ProcessStudyMaterial': EventHandler<never, { topic: 'study.completed'; data: never }>
     'GenerateStudyMaterial': ApiRouteHandler<Record<string, unknown>, unknown, { topic: 'study.submit'; data: never }>
   }
     

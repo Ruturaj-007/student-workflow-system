@@ -61,6 +61,10 @@ Format clearly with headers.
         const result =
             aiResponse?.candidates?.[0]?.content?.parts?.[0]?.text;
 
+        if (!result) {
+            throw new Error("Gemini returned empty response");
+        }
+
         logger.info("✅ Study material generated");
 
         await emit({

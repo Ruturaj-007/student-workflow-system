@@ -32,8 +32,9 @@ export const handler = async (req: any, { emit, logger }: any) => {
     return {
         status: 200,
         body: {
-            message: "✅ Processing started!",
-            note: "Study material is being generated via workflow",
+            status: "processing",
+            message: "Study material generation started",
+            preview: text.slice(0, 120) + "...",
         },
     };
 };
