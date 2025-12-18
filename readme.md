@@ -19,13 +19,10 @@ This system takes raw lecture text and automatically converts it into **summarie
 
 ### Motia Workbench (Workflow Execution)
 ![Motia Workbench](screenshots/motia_workbench.png)
-
 ### API Request (Postman-Generated Study Material)
 ![Postman Request and Response](screenshots/postman_request_&_response.png)
-
 ### Final Study Material Output
 ![Study Material](screenshots/study_output.png)
-
 
 ## 🧩 Architecture Overview
 
@@ -202,7 +199,7 @@ Perfect for **hackathons, portfolios, and advanced backend learning**.
 
 ## 🏆 Author
 
-Built with ❤️ by **Vaibhav**
+Built with ❤️ by **Ruturaj Pawar**
 
 > "Not just generating content — generating understanding."
 >
